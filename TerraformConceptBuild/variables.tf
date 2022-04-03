@@ -26,7 +26,7 @@ variable "PATH_TO_PRIVATE" {
   default = "levelup_key"
 }
 variable "INSTANCE_USERNAME" {
-  default = ubuntu
+  default = "ubuntu"
 }
 
 
