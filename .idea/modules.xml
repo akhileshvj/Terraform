@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TerraformConceptBuild/TerraformConceptBuild.iml" filepath="$PROJECT_DIR$/TerraformConceptBuild/TerraformConceptBuild.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TerraformFirst.iml" filepath="$PROJECT_DIR$/.idea/TerraformFirst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Terraformvars/Terraformvars.iml" filepath="$PROJECT_DIR$/Terraformvars/Terraformvars.iml" />
+    </modules>
+  </component>
+</project>
