@@ -14,11 +14,18 @@ data "aws_ami" "cheers"{
 }
 
 resource "aws_instance" "myInstance" {
-  ami = data.aws_ami.cheers.id
-  instance_type = "t2.micro"
+  ami               = data.aws_ami.cheers.id
+  instance_type     = "t2.micro"
   availability_zone = data.aws_availability_zones.available.names[1]
-  tags = {
+  tags              = {
     Name = "CustomImage"
   }
+  provisioner "local-exec" {
+    command = "echo aws_instance.myInstance.private_ip >> my_private.txt"
+  }
 
-}
+  }
+  output "public_ip" {
+    value = "aws_instance.myInstance.public_ip"
+  }
+
