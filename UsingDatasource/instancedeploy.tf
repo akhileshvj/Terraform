@@ -7,6 +7,10 @@ data "aws_ami" "latest-ubuntu" {
     name   = "name"
     values = ["ubuntu*"]
   }
+  filter {
+    name   = "virtualization-type"
+    values = ["hvm"]
+  }
 }
 
 resource "aws_instance" "myInstance" {
