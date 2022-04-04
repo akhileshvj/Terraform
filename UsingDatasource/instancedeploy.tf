@@ -4,10 +4,6 @@ data "aws_ami" "latest-ubuntu" {
   most_recent = true
   owners = ["063491364108"]
   filter {
-    name   = "name"
-    values = ["ubuntu*"]
-  }
-  filter {
     name   = "virtualization-type"
     values = ["hvm"]
   }
