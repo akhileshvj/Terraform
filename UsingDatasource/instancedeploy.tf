@@ -21,11 +21,11 @@ resource "aws_instance" "myInstance" {
     Name = "CustomImage"
   }
   provisioner "local-exec" {
-    command = "echo aws_instance.myInstance.private_ip >> my_private.txt"
+    command = "echo ${aws_instance.myInstance.private_ip} >> my_private.txt"
   }
 
   }
   output "public_ip" {
-    value = "aws_instance.myInstance.public_ip"
+    value = aws_instance.myInstance.public_ip
   }
 
