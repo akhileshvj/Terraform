@@ -17,7 +17,7 @@ resource "aws_instance" "myInstance" {
   ami = data.aws_ami.cheers.id
   instance_type = "t2.micro"
   availability_zone = data.aws_availability_zones.available.names[1]
-  security_group = var.Security_Group
+  security_groups = ["MyfirstSec"]
   tags = {
     Name = "CustomImage"
   }
