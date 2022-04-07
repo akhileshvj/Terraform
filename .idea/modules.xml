@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/TerraformConceptBuild/TerraformConceptBuild.iml" filepath="$PROJECT_DIR$/TerraformConceptBuild/TerraformConceptBuild.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/TerraformFirst.iml" filepath="$PROJECT_DIR$/.idea/TerraformFirst.iml" />
       <module fileurl="file://$PROJECT_DIR$/Terraformvars/Terraformvars.iml" filepath="$PROJECT_DIR$/Terraformvars/Terraformvars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/UsingDatasource/UsingDatasource.iml" filepath="$PROJECT_DIR$/UsingDatasource/UsingDatasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/datasourceSG/datasourceSG.iml" filepath="$PROJECT_DIR$/datasourceSG/datasourceSG.iml" />
     </modules>
